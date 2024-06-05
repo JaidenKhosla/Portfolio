@@ -1,5 +1,5 @@
 # Portfolio
-My professional portfolio.
+My professional portfolio.\n
 (The initial website doesn't work currently.)
 
 Projects I've worked on:
