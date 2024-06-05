@@ -1,5 +1,6 @@
 # Portfolio
 My professional portfolio.
+(The initial website doesn't work currently.)
 
 Projects I've worked on:
   Calculator- My first ever Javascript Project!
