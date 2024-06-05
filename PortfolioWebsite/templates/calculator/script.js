@@ -9,18 +9,6 @@ var actualString = "";
 
 
 function appendToDisplay(char) {
-    if (operators.includes(char)){
-        actualString = eval(actualString);
-        justCaculated=false;
-        clearDisplay();   
-    }
-
-    else if(justCaculated==true && !(operators.includes(char))){
-        justCaculated = false;
-        actualString = "";
-        clearDisplay()
-    }
-    actualString+=char;
     window.display.value+=char;
 }
 
