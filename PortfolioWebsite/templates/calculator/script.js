@@ -1,4 +1,3 @@
-let justCaculated = false;
 
 window.onload = function(){
     window.display = document.getElementById("screen");
@@ -23,6 +22,4 @@ function calculate(){
     catch{
         window.display.value = "Error";
     }
-
-    justCaculated = true;
 }
