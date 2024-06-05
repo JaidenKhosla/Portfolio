@@ -4,8 +4,6 @@ window.onload = function(){
     window.display = document.getElementById("screen");
 };
 
-let operators = ["+","-","/","*"];
-var actualString = "";
 
 
 function appendToDisplay(char) {
@@ -19,7 +17,7 @@ function clearDisplay(){
 function calculate(){
     try{
         let calculation;
-        calculation = actualString.replace(/%/g, "/100");
+        calculation = window.display.value.replace(/%/g, "/100");
         window.display.value = eval(calculation);
     }
     catch{
