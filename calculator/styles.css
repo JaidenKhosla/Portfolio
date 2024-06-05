@@ -1,0 +1,91 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Calculator{
+    background-color: hsl(0, 1.52%, 3.88%);
+}
+
+#screen{
+    box-sizing: border-box;
+    background-color: hsl(0, 1.52%, 5.88%);
+    width: 100%;
+    height: 10vh;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    max-width: 447.997px;
+    max-height: 621.989px;
+    padding-left: 5vh;
+}
+
+.subop {
+    background-color: hsl(0, 1.52%, 75%) !important;
+    color: hsl(0, 1.52%, 1.88%) !important;
+}
+
+.subop:hover{
+    background-color: hsl(0, 1.52%, 85%) !important;
+}
+
+.subop:active{
+    background-color: hsl(0, 1.52%, 90%) !important;
+}
+
+.operator{
+    background-color: hsl(42.39, 54.23%, 60.59%) !important;
+}
+
+.operator:hover{
+    background-color: hsl(42.39, 54.23%, 70.59%) !important;
+}
+
+.operator:active{
+    background-color: hsl(42.39, 54.23%, 75.59%) !important;
+}
+
+#keys{
+    padding-top: 2vh;
+}
+
+
+
+.row{
+    display: flex;
+    gap: 2vh;
+    justify-content: center;
+    padding-bottom: 2vh;
+}
+
+
+.row button {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 10vh;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 4.5vh;
+    color: white;
+    background-color: hsl(0, 1.52%, 25.88%);
+}
+
+#wideBTN{
+    width: 22vh !important;
+}
+
+.row button:hover{
+    background-color: hsl(0, 1.52%, 35%);
+}
+
+.row button:active{
+    background-color: hsl(0, 1.52%, 40%);
+}
