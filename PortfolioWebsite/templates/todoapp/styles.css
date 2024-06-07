@@ -1,0 +1,13 @@
+#check{
+    background-color: white;
+    border-radius: 90%;
+    height: 3vh;
+    width: 3vh;
+    border-radius: 50%;
+    border: 0.1vh solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
