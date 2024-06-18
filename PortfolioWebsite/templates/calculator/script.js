@@ -10,7 +10,7 @@ function appendToDisplay(char) {
         display.value+=char;
         displayLength++;  
         if(displayLength >= 6){
-            _fontSize--;
+            _fontSize-=1.2;
             display.style.fontSize = `${_fontSize.toString()}vh`;
         }  
     }
