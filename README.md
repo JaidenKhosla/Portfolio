@@ -5,4 +5,4 @@ My professional portfolio.\
 Projects I've worked on:\
 \
   Calculator- My first ever Javascript Project!\
-  [Click here to go to the Calculator Project.](https://thebrainycat.github.io/Portfolio/PortfolioWebsite/templates/calculator/index.html)
+  [Click here to go to the Calculator Project.](https://TheBrainyCat/Portfolio/blob/main/PortfolioWebsite/Projects/calculator/index.html)
