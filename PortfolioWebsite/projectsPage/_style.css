@@ -1,0 +1,19 @@
+.project > div{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+    align-items: center;
+    margin-top: 0;
+}
+
+.textContainer > h1{
+    font-size: 6vh;
+    border-bottom: 1.2vh solid;
+    width: fit-content;
+    border-radius: 1vh;
+    margin-bottom: 0;
+}
+.imageContainer > img {
+    width: 25vh;
+    height: 30vh;
+}
