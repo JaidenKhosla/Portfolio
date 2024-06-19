@@ -16,6 +16,7 @@
 
 body, html {
     margin: 0;
+    padding: 0;
 }
 
 @keyframes TextRise {
@@ -23,7 +24,7 @@ body, html {
         transform: translateY(150%);
     }
     to{
-        transform: translateY(1%);
+        transform: translateY(0);
     }
 
 }
@@ -38,15 +39,7 @@ body, html {
     }
     
 }
-#pcGIF{
-    image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
-    width: 35vh;
-    margin: auto;
-    margin-top: 5vh;
-    margin-bottom: 0;
-}
+
 
 a {
     font-weight: bolder;
@@ -63,12 +56,6 @@ a:active {
     color: lightcyan;
 }
 
-div.headContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
 
 div.header {
     padding-top: 0;
@@ -88,20 +75,20 @@ body{
 }
 
 
-div.containerMain {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    white-space: nowrap;
-    animation: TextRise 0.5s ease-in 1 forwards;
-}
-div.containerMain > h1 {
-    font-size: 11vh;
-    margin-bottom: 0;
-}
-    </style>
+
+@media screen and (max-width: 600px){
+    div.containerMain > h1 {
+        font-size: 6vh;
+        margin-bottom: 0;
+    }
+    
+    div.containerMain > h3 {
+        font-size: 2vh;
+    }
+    a{
+        font-size: 2vh;
+    }
+}    </style>
     <style>
         .project > div{
     display: flex;
@@ -121,6 +108,35 @@ div.containerMain > h1 {
 .imageContainer > img {
     width: 25vh;
     height: 30vh;
+}
+
+.textContainer > p {
+    font-size: 3vh;
+}
+
+.project {
+        animation: TextRise 1.2s ease-in;
+    }
+
+@media screen and (max-width:600px) {
+    .project > div{
+        gap: 0.4vh;
+    }
+    .textContainer > h1 {
+        font-size: 4vh;
+        border-bottom: 0.8vh solid;
+    }
+
+    .imageContainer > img{
+        width: 16.7vh;
+        height: 20vh;
+        margin-top: 0;
+    }
+
+    .textContainer > p {
+        font-size: 1.5vh;
+    }
+
 }
     </style>
 </head>
