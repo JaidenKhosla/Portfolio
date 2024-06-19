@@ -6,6 +6,7 @@
 
 body, html {
     margin: 0;
+    padding: 0;
 }
 
 @keyframes TextRise {
@@ -94,4 +95,21 @@ div.containerMain > h1 {
 
 div.containerMain > h3 {
     font-size: 3vh;
+}
+
+@media screen and (max-width: 600px){
+    div.containerMain > h1 {
+        font-size: 6vh;
+        margin-bottom: 0;
+    }
+    
+    div.containerMain > h3 {
+        font-size: 2vh;
+    }
+    #pcGIF{
+        width: 23.4vh;
+    }
+    a{
+        font-size: 2vh;
+    }
 }
