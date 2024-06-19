@@ -88,6 +88,10 @@ div.containerMain {
     animation: TextRise 0.5s ease-in 1 forwards;
 }
 div.containerMain > h1 {
-    font-size: 11vh;
+    font-size: 9vh;
     margin-bottom: 0;
+}
+
+div.containerMain > h3 {
+    font-size: 3vh;
 }
