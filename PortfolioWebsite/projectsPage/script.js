@@ -21,6 +21,6 @@ function addProject(project){
 addProject({
     projectName: "Calculator",
     projectDescription: "My first Javascript project!<br> Inspired by the apple calculator.",
-    projectLink: "https://rawcdn.githack.com/TheBrainyCat/Portfolio/bf6d3253c710ff3bd5213e00d76fd67574725f8e/PortfolioWebsite/Projects/calculator/index.html",
+    projectLink: "https://rawcdn.githack.com/JaidenKhosla/Portfolio/bf6d3253c710ff3bd5213e00d76fd67574725f8e/PortfolioWebsite/Projects/calculator/index.html",
     projectImg /*String of the file reference*/: "projectGIFS/calculatorGif.gif"
 });
