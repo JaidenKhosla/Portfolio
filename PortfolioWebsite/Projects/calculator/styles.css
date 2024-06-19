@@ -12,6 +12,7 @@ body{
 #Calculator{
     background-color: hsl(0, 1.52%, 3.88%);
     width: 50vh;
+    padding: 1vh;
 }
 
 #screen{

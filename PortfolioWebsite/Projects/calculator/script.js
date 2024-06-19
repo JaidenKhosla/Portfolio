@@ -6,10 +6,10 @@ let _fontSize = 12;//vh
 
 function appendToDisplay(char) {
     //const displayVal = display.value;
-    if(displayLength < 9){
+    if(display.value.length < 9){
         display.value+=char;
-        displayLength++;  
-        if(displayLength >= 6){
+        //displayLength++;  
+        if(display.value.length >= 6){
             _fontSize-=1.3;
             display.style.fontSize = `${_fontSize.toString()}vh`;
         }  
@@ -20,7 +20,7 @@ function appendToDisplay(char) {
 
 function clearDisplay(){
     display.value = "";
-    displayLength = 0;
+    //displayLength = 0;
     _fontSize = 12;
     display.style.fontSize = "12vh"
 }
@@ -29,8 +29,10 @@ function calculate(){
     try{
         let calculation;
         calculation = display.value.replace(/%/g, "/100");
+        clearDisplay();
         display.value = eval(calculation);
-        displayLength = eval(calculation).length;
+       // displayLength = display.value.length;
+        //console.log(displayLength);
         _fontSize = 12;
         display.style.fontSize = "12vh";
     }
